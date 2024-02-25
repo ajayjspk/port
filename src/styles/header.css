@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    border-top: 2px solid ;
+    justify-content: end;
+    text-align:center;
+
+    
+}
+.container ul{
+    display: flex;
+    justify-content: end;
+    /* border: 2px solid red; */
+}
+.container ul li{
+    list-style-type:none;
+    font-size: 18px;
+    color:#666;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.container ul li a{
+    
+    text-decoration: none;
+}
